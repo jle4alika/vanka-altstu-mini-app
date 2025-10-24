@@ -4,7 +4,7 @@ import SchedulePage from "./page/SchedulePage.jsx";
 import NewsPage from "./page/NewsPage.jsx";
 import HomeWorkPage from "./page/HomeWorkPage.jsx";
 import SettingsPage from "./page/SettingsPage.jsx";
-
+import Teston from "./page/Teston.jsx";
 
 
 function App() {
@@ -16,6 +16,7 @@ function App() {
                         <Route path="/schedule" element={<SchedulePage />} />
                         <Route path="/homework" element={<HomeWorkPage />} />
                         <Route path="/profile" element={<SettingsPage />} />
+                        <Route path="/test" element={<Teston />} />
                     </Routes>
             </Router>
 

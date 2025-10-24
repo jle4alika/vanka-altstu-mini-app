@@ -10,7 +10,7 @@ const Navbar = () => {
 
     // Определим табы
     const tabs = [
-        { path: '/', icon: <GoHomeFill size={25} />, label: 'Новости' },
+        { path: '/test', icon: <GoHomeFill size={25} />, label: 'Новости' },
         { path: '/schedule', icon: <FaCalendarDays size={22} />, label: 'Расписание' },
         { path: '/homework', icon: <IoBook size={25} />, label: "Доашняя работа" },
         { path: '/profile', icon: <IoSettingsSharp size={25} />, label: 'Настойки' },

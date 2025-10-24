@@ -36,7 +36,7 @@
     overflow: hidden;
 }
 .newscard {
-    margin: 8px 8px 1.25rem 8px;
+    margin: 32px 16px 3rem 16px;
 
     border-radius: 18px;
     height: fit-content;
