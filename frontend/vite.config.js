@@ -9,8 +9,10 @@ import mkcert from 'vite-plugin-mkcert'
 export default defineConfig({
   plugins: [react(),tailwindcss(), mkcert()],
     server:{
-        host: '127.0.0.1',
-        port:5173,
-        https: true
+        https: false,
+        host: true,
+        allowedHosts: [
+      "altstu-vanka.ru", 'www.altstu-vanka.ru'
+    ],
     }
 })
